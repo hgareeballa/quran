@@ -2,7 +2,7 @@ import groupBy from "lodash/groupBy";
 import ISO6391 from "iso-639-1";
 
 export const fetchSurahs = props => {
-  fetch("http://api.alquran.cloud/surah")
+  fetch("https://api.alquran.cloud/surah")
     .then(response => response.json())
     .then(parsedJSON => {
       //console.log(parsedJSON.data);
@@ -83,7 +83,7 @@ export const fetchTextEditions = props => {
 
 export const fetchRecitations = props => {
   fetch(
-    "http://api.alquran.cloud/edition?format=audio&type=versebyverse&language=ar"
+    "https://api.alquran.cloud/edition?format=audio&type=versebyverse&language=ar"
   )
     .then(response => response.json())
     .then(parsedJSON => {
