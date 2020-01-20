@@ -21,7 +21,7 @@ export const fetchSurahs = props => {
 };
 
 export const fetchTranslations = props => {
-  fetch("http://api.alquran.cloud/edition?format=text&type=translation")
+  fetch("https://api.alquran.cloud/edition?format=text&type=translation")
     .then(response => response.json())
     .then(parsedJSON => {
       const translations = groupBy(parsedJSON.data, translation => {
