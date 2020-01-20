@@ -63,7 +63,7 @@ export const fetchTranslations = props => {
 };
 
 export const fetchTextEditions = props => {
-  fetch("http://api.alquran.cloud/edition?format=text&language=ar&type=quran")
+  fetch("https://api.alquran.cloud/edition?format=text&language=ar&type=quran")
     .then(response => response.json())
     .then(parsedJSON => {
       //console.log("editions", parsedJSON.data);
