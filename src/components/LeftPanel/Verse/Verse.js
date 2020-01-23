@@ -16,7 +16,7 @@ class Verse extends Component {
     this.fetchSurah();
   }
 
-  componentWillReceiveProps(nextProps) {
+  UNSAFE_componentWillReceiveProps(nextProps) {
     //console.log("in willrecive props verse");
     if (
       this.props.selectedSurah.selectedSurah !==
@@ -86,7 +86,7 @@ class Verse extends Component {
       return <ReactLoading type="bars" color="green" />;
     return (
       <div className="Verse">
-        <h5>Verse</h5>
+        <h5>Verse - الْآيَة</h5>
         <div className="row">
           <div className="col-md-6">
             <Select

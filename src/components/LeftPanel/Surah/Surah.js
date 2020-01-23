@@ -31,7 +31,7 @@ class Surah extends Component {
 
     return (
       <div className="Surah">
-        <h5>Surah</h5>
+        {/* <h5>Surah</h5> */}
         <Select
           options={this.props.surahList.surahList}
           onChange={this.onSurahChangeHandler}

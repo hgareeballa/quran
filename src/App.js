@@ -17,7 +17,7 @@ class App extends Component {
     marginRight: 0
   };
 
-  componentWillMount() {
+  UNSAFE_componentWillMount() {
     fetchSurahs(this.props);
     fetchTranslations(this.props);
     fetchTextEditions(this.props);

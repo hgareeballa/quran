@@ -64,7 +64,7 @@ class Quran extends Component {
   // }
 
   componentDidUpdate(prevProps, prevState, snapshot) {
-    console.log("I am in update");
+    console.log("updateing ..... etc from Quran");
 
     if (this.props !== prevProps) {
       this.fetchSurah(this.props);

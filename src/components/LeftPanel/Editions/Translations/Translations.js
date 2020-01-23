@@ -68,7 +68,7 @@ class Translations extends Component {
       selectedTranslation = selectedTranslation.options.filter(sub => {
         return sub.value === this.props.translation.translation;
       });
-      //console.log("selected element", selectedTranslation);
+      console.log("selected element", selectedTranslation);
     }
 
     return (

@@ -20,7 +20,7 @@ class Verse extends Component {
       currentAyah.className = "text-right ayah highlight";
     }
   }
-  componentWillReceiveProps(nextProps) {
+  UNSAFE_componentWillReceiveProps(nextProps) {
     // console.log("currentrops", this.props);
     // console.log("nextProps", nextProps);
     if (this.props.highlight.highlight !== nextProps.highlight.highlight) {

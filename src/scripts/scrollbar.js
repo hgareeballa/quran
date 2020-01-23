@@ -1,6 +1,7 @@
 export const adjustScrollbar = (scrollBar, props, nextProps) => {
   if (nextProps.highlight.highlight < props.highlight.highlight) {
-    let scrollValue = scrollBar.getScrollValues().scrollTop;
+    //let scrollValue = scrollBar.getScrollValues().scrollTop;
+    let scrollValue = scrollBar.scrollTop;
 
     const ayahDiv = document.getElementById(
       "ayah_".concat(props.highlight.highlight)

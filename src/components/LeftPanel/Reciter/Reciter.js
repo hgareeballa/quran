@@ -20,7 +20,7 @@ class Reciter extends Component {
 
     return (
       <div>
-        <h5>Reciter</h5>
+        <h5>Reciter - الْمُقْرِي</h5>
         <Select
           options={this.props.reciterList.reciterList}
           onChange={this.onReciterChangeHandler}
