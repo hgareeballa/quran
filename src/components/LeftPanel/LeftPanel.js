@@ -4,7 +4,7 @@ import Surah from "./Surah/Surah";
 import Verse from "./Verse/Verse";
 import Reciter from "./Reciter/Reciter";
 //import TextEditions from "./Editions/Text/TextEditions";
-//import Translations from "./Editions/Translations/Translations";
+import Translations from "./Editions/Translations/Translations";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import "react-tabs/style/react-tabs.css";
 import "./LeftPanel.css";
@@ -25,7 +25,7 @@ class LeftPanel extends Component {
           </TabList>
           <TabPanel>
             <Surah />
-            {/* <Translations /> */}
+            <Translations />
             <Verse />
           </TabPanel>
           {/* <TabPanel>

@@ -73,7 +73,7 @@ class Translations extends Component {
 
     return (
       <div className="Translations">
-        <h5>Translations</h5>
+        <h5>Translations - التَّرْجَمَة </h5>
         <Select
           classNamePrefix="optiontext"
           onChange={this.onTranslationChangeHandler}
