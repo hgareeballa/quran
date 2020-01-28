@@ -3,7 +3,7 @@ This Project uses alquran.cloud api.
 
 ## Online Demo
 
-Online Demo is available here on my personal website - [Quran App](http://sajidzaman.com).
+Online Demo is available here on my personal website - [Quran App](http://elmuzamel.com).
 
 ## Available Scripts
 
